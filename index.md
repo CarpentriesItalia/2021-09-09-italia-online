@@ -76,6 +76,21 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2>Organizzatori</h2>
+<p> Il Laboratorio è organizzato da ELIXIR-IIB in collaborazione con Carpentries Italia </p>
+
+<p> Allegra Via, ELIXIR - <a href="https://elixir-iib-training.github.io/website/instructors/allegra_via.html">Homepage</a> </p>
+<p> Loredana Le Pera, ELIXIR - <a href="https://elixir-iib-training.github.io/website/instructors/loredana_le_pera.html">Homepage</a> </p>
+<p> Vincenza Colonna, ELIXIR - <a href="http://www.igb.cnr.it/popgenlab/research">Homepage</a> </p> 
+
+
+<h2>Registrazione</h2>
+<p>Il link per registrarsi:<a href="">(a breve disponibile)</a>.<p>
+<p>Data ultima per la registrazione: <strong>25 Agosto, 2021.</strong> </p> 
+
+<p>Numero massimo di partecipanti:<strong>20</strong>.</p> 
+<p>I candidati selezionati saranno avvisati entro il <strong>31 Agosto, 2021.</strong></p>
+
 
 <h2 id="general">Informazioni generali</h2>
 
