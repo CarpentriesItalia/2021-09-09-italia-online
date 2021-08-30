@@ -85,7 +85,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 
 <h2>Registrazione</h2>
-<p>Il link per registrarsi: <a href="">(a breve disponibile)</a>.<p>
+<p>Il link per registrarsi: <a href="https://forms.gle/JaaBuqrMWnFCSoXX9">(a breve disponibile)</a>.<p>
 <p>Data ultima per la registrazione: <strong>25 Agosto, 2021.</strong> </p> 
 
 <p>Numero massimo di partecipanti: <strong>20</strong>.</p> 
