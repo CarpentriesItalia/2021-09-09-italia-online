@@ -16,7 +16,7 @@ enddate: 2021-09-17        # machine-readable end date for the workshop in YYYY-
 instructor: ["Silvia Bonaiuto", "Vincenza Colonna", "Marco Crotti", "Gianluca Damaggio", "Luca Di Stasio", "Loredana Le Pera", "Giuseppe Profiti", "Martino Sorbaro", "Allegra Via"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Lisanna Paladin", "Claudio Pipicelli"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["loredanalepera@gmail.com", "allegra.via@gmail.com", "enza.colonna@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes:  https://pad.carpentries.org/2021-09-09-italia-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -79,16 +79,16 @@ displayed if the 'eventbrite' field in the header is not set.
 <h2>Organizzatori</h2>
 <p> Il Laboratorio è organizzato da ELIXIR Italy in collaborazione con Carpentries Italia </p>
 
-<p> Vincenza Colonna, ELIXIR - <a href="https://elixir-iib-training.github.io/website/instructors/vincenza_colonna.html">Homepage</a> </p> 
+<p> Vincenza Colonna, ELIXIR - <a href="https://elixir-iib-training.github.io/website/instructors/vincenza_colonna.html">Homepage</a> </p>
 <p> Loredana Le Pera, ELIXIR - <a href="https://elixir-iib-training.github.io/website/instructors/loredana_le_pera.html">Homepage</a> </p>
 <p> Allegra Via, ELIXIR - <a href="https://elixir-iib-training.github.io/website/instructors/allegra_via.html">Homepage</a> </p>
 
 
 <h2>Registrazione</h2>
 <p>Il link per registrarsi: <a href="https://forms.gle/JaaBuqrMWnFCSoXX9">modulo registrazione</a>.<p>
-<p>Data ultima per la registrazione: <strong>25 Agosto, 2021.</strong> </p> 
+<p>Data ultima per la registrazione: <strong>25 Agosto, 2021.</strong> </p>
 
-<p>Numero massimo di partecipanti: <strong>20</strong>.</p> 
+<p>Numero massimo di partecipanti: <strong>20</strong>.</p>
 <p>I candidati selezionati saranno avvisati entro il <strong>31 Agosto, 2021.</strong></p>
 
 
@@ -362,20 +362,7 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Programma</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "pilot" %}
-The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. If you would like to know the timing of these breaks in advance, please [contact the workshop organisers](#contact). For a list of lesson sections and estimated timings, [visit the lesson homepage]({{ site.lesson_site }}).
-{% comment %}
-Edit/replace the text above if you want to include a schedule table.
-See the contents of the _includes/custom_schedule.html file for an example of
-how one of these schedule tables is constructed.
-{% endcomment %}
-{% endif %}
+{% include custom-schedule.html %}
 
 <hr/>
 
