@@ -14,7 +14,7 @@ humantime: "14:00 - 18:00 (Roma, UTC+1)"    # human-readable times for the works
 startdate: 2021-09-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-09-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Silvia Bonaiuto", "Vincenza Colonna", "Marco Crotti", "Gianluca Damaggio", "Luca Di Stasio", "Loredana Le Pera", "Giuseppe Profiti", "Martino Sorbaro", "Allegra Via"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Lisanna Paladin", "Claudio Pipicelli"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Lisanna Paladin"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["loredanalepera@gmail.com", "allegra.via@gmail.com", "enza.colonna@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  https://pad.carpentries.org/2021-09-09-italia-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
